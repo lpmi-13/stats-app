@@ -1,0 +1,8 @@
+# Static Vite build: no functions, redirects, or server routes are needed for the MVP,
+# which only serves "/". If browser-history routes are added later, add an SPA rewrite to /index.html.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
